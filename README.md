@@ -80,9 +80,10 @@
 
 **创建型：**
 
-1.[单例模式（Singleton）](src/main/java/com/leo/creational/Singleton.java)
+1.[单例模式（Singleton）](src/main/java/com/leo/creational/singleton)
 
 某个类只能生成一个实例，该类提供了一个全局访问点供外部获取该实例，其拓展是有限多例模式。
+单例模式实现方式比较多，主要分在实现上是否支持懒汉模式，是否支持在线程安全中运用各项技巧。
 
 2.原型模式（Prototype）
 
