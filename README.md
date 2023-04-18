@@ -94,7 +94,7 @@
 ②难以根据类生成实例
 ③解耦框架与生成的实例
 
-3工厂方法模式（Factory Method）
+3.[工厂方法模式（Factory Method）](src/main/java/com/leo/creational/factory)
 
 定义一个用于创建产品的接口，由子类决定生产什么产品。
 避免创建者和具体的实现逻辑耦合；
