@@ -129,7 +129,7 @@ ps:与工厂模式的区别在于'单一'和'产品簇'
 
 主要针对：多种差异化类型的接口实现统一输出
 
-7.装饰器模式（Decorator）
+7.[装饰器模式（Decorator）](src/main/java/com/leo/structural/decorator)
 
 动态的给对象增加一些职责，即增加其额外的功能。
 
