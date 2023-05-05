@@ -140,7 +140,7 @@ ps:与工厂模式的区别在于'单一'和'产品簇'
 + ☆ 装饰角色（Decorator）：定义抽象类并继承接口中的方法，保证一致性；
 + ☆ 具体装饰角色（ConcreteDecorator）：扩展装饰具体的实现逻辑。
 
-8.代理模式（Proxy）
+8.[代理模式（Proxy）](src/main/java/com/leo/structural/proxy)
 
 主体定义代理角色和 实际的主体角色间一致性的接口。
 
