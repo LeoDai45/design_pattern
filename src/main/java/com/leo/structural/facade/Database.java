@@ -16,6 +16,7 @@ public class Database {
         String filename = dbName + ".txt";
         Properties prop = new Properties();
         try {
+            // 本地地址
             prop.load(new FileInputStream("E:/leoWorkSpace/design_pattern/src/main/java/com/leo/structural/facade/"+ filename));
         } catch (IOException e) {
             System.out.println("Warning:" + filename + " is not found.");

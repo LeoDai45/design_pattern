@@ -150,9 +150,14 @@ ps:与工厂模式的区别在于'单一'和'产品簇'
 
 保护目标对象 或者 增强对象
 
-9.外观模式（Facade）
+spring中的体现主要是将类的代理注册到spring中，把bean交给spring管理。
+
+9.[外观模式（Facade）](src/main/java/com/leo/structural/facade)
 
 为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问。
+
+![示例UML](E:\leoWorkSpace\design_pattern\src\main\java\com\leo\structural\facade\facade1.png)
+![facade模式类图](E:\leoWorkSpace\design_pattern\src\main\java\com\leo\structural\facade\facade2.png)
 
 10.桥接模式（Bridge）
 
