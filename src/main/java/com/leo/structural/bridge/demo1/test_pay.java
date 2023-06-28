@@ -16,7 +16,7 @@ public class test_pay {
         Pay wxPay = new WxPay(new PayFaceMode());
         wxPay.transfer("wexin_20230528","202305281608",new BigDecimal(1638));
         System.out.println("模拟测试场景：支付宝支付、指纹支付。");
-        Pay zfbPay = new WxPay(new PayFingerPrintMode());
+        Pay zfbPay = new ZfbPay(new PayFingerPrintMode());
         zfbPay.transfer("zfb_20230528","202305281611",new BigDecimal(181));
     }
 }
